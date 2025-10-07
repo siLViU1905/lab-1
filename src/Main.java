@@ -1,11 +1,14 @@
+import classes.Car;
+import interfaces.Movable;
+
 public class Main {
     public static void main(String[] args) {
-        Animal cat = new Cat();
+        Movable movable = new Car();
 
-        Animal dog = new Dog();
+        movable.start();
 
-        cat.sound();
+        Car car = new Car();
 
-        dog.sound();
+        car.stop();
     }
 }
