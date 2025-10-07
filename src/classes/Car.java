@@ -9,6 +9,11 @@ public class Car implements Movable {
     }
 
     @Override
+    public void move() {
+        System.out.println("Car moving");
+    }
+
+    @Override
     public void start() {
         System.out.println("Car started");
     }

@@ -7,6 +7,8 @@ public class Main {
 
         movable.start();
 
+        movable.move();
+
         Car car = new Car();
 
         car.stop();
