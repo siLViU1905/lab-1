@@ -1,16 +1,11 @@
 import classes.Car;
+import enums.ZileleSaptamanii;
 import interfaces.Movable;
 
 public class Main {
     public static void main(String[] args) {
-        Movable movable = new Car();
+        for(ZileleSaptamanii zi : ZileleSaptamanii.values())
+            System.out.println(zi);
 
-        movable.start();
-
-        movable.move();
-
-        Car car = new Car();
-
-        car.stop();
     }
 }
